@@ -12,10 +12,10 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Database configuration
-DB_HOST = 'localhost'
-DB_NAME = 'postgres'
-DB_USER = 'postgres'
-DB_PASSWORD = '123456'
+DB_HOST = 'your_host'
+DB_NAME = 'your_dbname'
+DB_USER = 'your_user'
+DB_PASSWORD = 'your_password'
 
 def get_db_connection():
     """Establish a connection to the database."""
